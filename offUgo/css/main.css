@@ -1,0 +1,333 @@
+* {
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+html, body {
+margin: 0;
+padding: 0;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+body {
+width: 100% !important;
+min-width: 100% !important;
+margin: 0 !important;
+padding: 0 !important;
+background-color: #dde0e1;
+font-family: "Montserrat", Helvetica Neue, Helvetica, Arial, sans-serif;
+mso-line-height-rule: exactly;
+word-break: break-word;
+border: 0;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+body, table, td, a, li {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+table, td {
+border-collapse: collapse;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+table {
+border: 0;
+border-spacing: 0;
+}
+td {
+border-collapse: collapse !important;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+a {
+text-decoration: none;
+}
+a img {
+border: none;
+}
+a, img, table {
+max-width: 100%;
+}
+b {
+font-weight: 700;
+}
+img {
+height: auto;
+line-height: 100%;
+border: 0;
+text-decoration: none;
+outline: none;
+-ms-interpolation-mode: bicubic;
+}
+img.g-img + div {
+display: none !important;
+}
+ul, ol, li {
+margin: 0;
+padding: 0;
+}
+html, body, div, table, tr, td, span, a {
+-webkit-text-size-adjust: none !important;
+}
+#MessageViewBody, #MessageWebViewDiv {
+width: 100% !important;
+}
+/******************************************************************************************/
+/*   STARTS: A work-around for email clients automatically linking certain text strings   */
+/******************************************************************************************/
+a[x-apple-data-detectors], .unstyle-auto-detected-links a, .aBn {
+border-bottom: 0 !important;
+color: inherit !important;
+cursor: default !important;
+font-family: inherit !important;
+font-size: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+text-decoration: none !important;
+}
+u + #body a,
+#MessageViewBody a {
+color: inherit !important;
+font-family: inherit !important;
+font-size: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+text-decoration: none !important;
+}
+.blueLinks a {
+color: inherit !important;
+text-decoration: none !important;
+}
+/****************************************************************************************/
+/*   ENDS: A work-around for email clients automatically linking certain text strings   */
+/****************************************************************************************/
+.im {
+color: inherit !important;
+}
+.a6S {
+display: none !important;
+opacity: 0.01 !important;
+}
+#outlook a {
+padding: 0;
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass * {
+line-height: 150%;
+}
+.backgroundTable {
+width: 100% !important;
+margin: 0px auto;
+padding: 0;
+}
+.appleLinks a {
+color: #000001 !important;
+text-decoration: none;
+text-decoration: none !important;
+}
+.webkit {
+max-width: 600px;
+margin: 0px auto;
+}
+.outer {
+width: 100%;
+max-width: 600px;
+margin: 0px auto;
+}
+.cta a {
+color: #ffffff;
+text-decoration: none;
+display: block;
+}
+table.bora {
+border-collapse: separate;
+}
+/*************/
+/*   < 600   */
+/*************/
+@media screen and (max-width: 599px) {
+.cta a {
+padding: 10px 40px !important;
+font-size: 14px !important;
+line-height: 14px !important;
+}
+.mw100 {
+max-width: 100% !important;
+}
+.w100 {
+width: 100% !important;
+height: auto !important;
+}
+.w62 {
+width: 62% !important;
+height: auto !important;
+}
+.w18 {
+width: 18% !important;
+height: auto !important;
+}
+.icon_card {
+width: 12px !important;
+height: auto !important;
+}
+.icon_checkmark {
+width: 13px !important;
+height: auto !important;
+}
+.dw1 {
+width: 100% !important;
+padding: 0px;
+}
+.pa20 {
+padding: 20px !important;
+}
+.pa10 {
+padding: 10px !important;
+}
+.pa5 {
+padding: 5px !important;
+}
+.pay50 {
+padding-top: 50px !important;
+padding-bottom: 50px !important;
+}
+.pay40 {
+padding-top: 40px !important;
+padding-bottom: 40px !important;
+}
+.pay30 {
+padding-top: 30px !important;
+padding-bottom: 30px !important;
+}
+.pay20 {
+padding-top: 20px !important;
+padding-bottom: 20px !important;
+}
+.pay12 {
+padding-top: 12px !important;
+padding-bottom: 12px !important;
+}
+.pay10 {
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+}
+.pax20 {
+padding-right: 20px !important;
+padding-left: 20px !important;
+}
+.pato108 {
+padding-top: 108px !important;
+}
+.pato43 {
+padding-top: 43px !important;
+}
+.pato30 {
+padding-top: 30px !important;
+}
+.pato25 {
+padding-top: 25px !important;
+}
+.pato20 {
+padding-top: 20px !important;
+}
+.pari10 {
+padding-right: 10px !important;
+}
+.pari5 {
+padding-right: 5px !important;
+}
+.pabo170 {
+padding-bottom: 170px !important;
+}
+.pabo30 {
+padding-bottom: 30px !important;
+}
+.pabo20 {
+padding-bottom: 20px !important;
+}
+.pabo10 {
+padding-bottom: 10px !important;
+}
+.pato10_pari8 {
+padding-top: 10px !important;
+padding-right: 8px !important;
+}
+.fs_27 {
+font-size: 27px !important;
+}
+.fs_23 {
+font-size: 23px !important;
+}
+.fs_22 {
+font-size: 22px !important;
+}
+.fs_18 {
+font-size: 18px !important;
+}
+.fs_17 {
+font-size: 17px !important;
+}
+.fs_16 {
+font-size: 16px !important;
+}
+.fs_15 {
+font-size: 15px !important;
+}
+.fs_14 {
+font-size: 14px !important;
+}
+.fs_13 {
+font-size: 13px !important;
+}
+.fs_12 {
+font-size: 12px !important;
+}
+.fs_11 {
+font-size: 11px !important;
+}
+.fs_10 {
+font-size: 10px !important;
+}
+.fs_9 {
+font-size: 9px !important;
+}
+.fs_8 {
+font-size: 8px !important;
+}
+.lh_14 {
+line-height: 1.4 !important;
+}
+.lh_11 {
+line-height: 1.1 !important;
+}
+.lh_10 {
+line-height: 1 !important;
+}
+.h10 {
+height: 10px !important;
+line-height: 10px !important;
+font-size: 10px !important;
+}
+.hide_mobile {
+display: none;
+font-size: 0;
+max-height: 0;
+line-height: 0;
+padding: 0;
+mso-hide: all;
+display: none !important;
+font-size: 0 !important;
+max-height: 0 !important;
+line-height: 0 !important;
+padding: 0 !important;
+mso-hide: all !important;
+}
+}
